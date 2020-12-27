@@ -1,0 +1,24 @@
+@font-face {
+     font-family: Roboto;
+     src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+/* :root {
+    // --color1: ;
+    // --color2: ;
+} */
+
+body {
+    /* // color:var(--color1); */
+    margin: 0;
+    background-color: #171826;
+    font-size: 14px;
+    /* overflow: hidden; */
+    color: #90919c;
+}
+

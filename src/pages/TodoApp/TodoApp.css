@@ -1,0 +1,83 @@
+.add-todo-container{
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 3px -2px #505050;
+    border: 2px solid #8200f3;
+    border-radius: 7px;
+}
+
+.add-input{
+    padding: 8px;
+    padding-left: 2%;
+    border: none;
+    text-align: left;
+    width: 80%;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+    color:white;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: rgb(155, 151, 151);
+}
+
+.add-text{
+    padding: 8px;
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    background-color: #8200f3;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.add-text:hover{
+    background-color: #7c1ece;
+}
+
+.no-todos-text{
+    font-size: 20px;
+}
+
+.todos-container{
+    background-color: white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.MuiButton-textPrimary {
+    color: #8200f3 !important;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: #8200f3 !important;
+}
+
+.MuiCircularProgress-root{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.loader{
+    width:100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .add-text{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .add-text{
+        width: 20%;
+    }
+}

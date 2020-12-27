@@ -1,0 +1,20 @@
+.app-header {
+    min-height: 2rem;
+    font-weight: bold;
+    background-color: #8200f3;
+    color:white;
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 2rem;
+}
+
+.main-container-width{
+    width:85%;
+    margin:0 auto;
+    padding-left:1%;
+}
+
+.header-logo{
+    font-size: 20px;
+}

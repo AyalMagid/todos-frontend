@@ -1,0 +1,67 @@
+.todo-preview{
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 7px;
+    height:  3.5rem;
+    background: white;
+}
+
+.done-todo{
+    background-color: #ffffff29;
+}
+
+.todo-desc{
+    width:80%;
+    padding-left: 2%;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.todo-actions{
+    width: 20%;
+    padding-right: 2%;
+}
+
+.todo-remove, .todo-status{
+    width: 50%;
+}
+
+.todo-remove{
+    cursor: pointer;
+}
+
+.fa-trash-alt:before {
+    font-size: 1rem;
+}
+
+.fa-trash-alt:hover{
+    color: #171826;
+}
+
+.MuiIconButton-colorSecondary {
+    color:#90919c !important;
+}
+
+@media screen and (max-width: 900px) {
+    .todo-actions{
+        width: 30%;
+    }
+    .todo-desc{
+        width:70%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .todo-actions{
+        width: 40%;
+    }
+    .todo-desc{
+        width:60%;
+    }
+    .todo-status{
+        margin-left: 8px;
+    }
+}
+
+
+
+
